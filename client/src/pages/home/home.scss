@@ -1,0 +1,12 @@
+@import "../../style.scss" ;
+
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+
+    @include themify($themes) {
+        padding: 20px 70px;
+        background-color: themed("bgSoft");
+        color:white;
+        
+    }
+}
